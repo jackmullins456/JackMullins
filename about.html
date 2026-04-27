@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About | JAM's Brazilian Steakhouse</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    :root { --gold: #c9a84c; --dark: #1a1008; --cream: #f5efe6; }
+    body { background-color: var(--dark); color: var(--cream); font-family: 'Lato', sans-serif; }
+    h1, h2, h3, h4, h5 { font-family: 'Playfair Display', serif; }
+    .navbar { background-color: #0e0804; border-bottom: 2px solid var(--gold); }
+    .navbar-brand { font-family: 'Playfair Display', serif; color: var(--gold) !important; font-size: 1.5rem; letter-spacing: 2px; }
+    .nav-link { color: var(--cream) !important; letter-spacing: 1px; font-size: 0.9rem; text-transform: uppercase; }
+    .nav-link:hover, .nav-link.active { color: var(--gold) !important; }
+    .page-header { background: linear-gradient(rgba(10,5,0,0.75), rgba(10,5,0,0.9)), url('https://images.unsplash.com/photo-1544025162-d76694265947?w=1400') center/cover no-repeat; padding: 6rem 0; text-align: center; border-bottom: 3px solid var(--gold); }
+    .page-header h1 { color: var(--gold); font-size: 3.5rem; letter-spacing: 3px; }
+    .section-title { color: var(--gold); font-size: 2.2rem; }
+    .divider { width: 60px; height: 3px; background: var(--gold); margin: 1rem auto 2rem; }
+    .value-card { background: #251508; border: 1px solid #3a2010; border-radius: 4px; padding: 2rem; text-align: center; height: 100%; transition: border-color 0.3s; }
+    .value-card:hover { border-color: var(--gold); }
+    .stat-box { background: #1e0f05; border: 1px solid var(--gold); border-radius: 4px; padding: 2rem; text-align: center; }
+    .stat-number { font-family: 'Playfair Display', serif; font-size: 3rem; color: var(--gold); }
+    .team-card { background: #251508; border: 1px solid #3a2010; border-radius: 4px; padding: 2rem; text-align: center; transition: border-color 0.3s; }
+    .team-card:hover { border-color: var(--gold); }
+    .team-avatar { width: 80px; height: 80px; border-radius: 50%; background: var(--gold); display: flex; align-items: center; justify-content: center; font-size: 2rem; margin: 0 auto 1rem; }
+    footer { background: #0e0804; border-top: 2px solid var(--gold); color: #999; }
+    footer a { color: var(--gold); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">J.A.M.'s</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-3">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="bootstrap.html">Reservations</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <h1>Our Story</h1>
+    <p style="color:var(--cream); letter-spacing:2px; font-size:1.1rem;">The Tradition Behind the Fire</p>
+  </div>
+
+  <div class="container py-5">
+    <div class="row align-items-center g-5">
+      <div class="col-md-6">
+        <h2 class="section-title">Born from a Love of Fire & Family</h2>
+        <div class="divider" style="margin-left:0;"></div>
+        <p style="line-height:1.9; color:#ddd;">J.A.M.'s Brazilian Steakhouse was founded by Jack A. Mullins, who grew up eating churrasco at family gatherings and always dreamed of bringing that tradition to Oxford, Ohio. What started as backyard cookouts turned into a full-blown obsession with fire, flavor, and feeding people until they can't move.</p>
+        <p style="line-height:1.9; color:#ddd;">In 2024, Jack opened the doors of J.A.M.'s — a place where you sit down, relax, and let our gauchos take care of everything. No rush. No limits. Just good meat, good company, and the kind of meal you remember for years.</p>
+        <p style="line-height:1.9; color:#ddd;">The name J.A.M. isn't just initials — it's a promise that every visit will be packed with flavor, warmth, and that jam-packed feeling of being completely satisfied.</p>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-3">
+          <div class="col-6"><div class="stat-box"><div class="stat-number">15+</div><p class="mb-0" style="color:#ccc;">Cuts of Meat</p></div></div>
+          <div class="col-6"><div class="stat-box"><div class="stat-number">40+</div><p class="mb-0" style="color:#ccc;">Salad Bar Items</p></div></div>
+          <div class="col-6"><div class="stat-box"><div class="stat-number">∞</div><p class="mb-0" style="color:#ccc;">All You Can Eat</p></div></div>
+          <div class="col-6"><div class="stat-box"><div class="stat-number">1</div><p class="mb-0" style="color:#ccc;">Original Location</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-5">
+    <div class="text-center">
+      <h2 class="section-title">What We Stand For</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="row g-4 mt-2">
+      <div class="col-md-4">
+        <div class="value-card">
+          <div style="font-size:2.5rem; margin-bottom:1rem;">🥩</div>
+          <h4 style="color:var(--gold);">Quality First</h4>
+          <p style="color:#ccc;">We source our beef from family-owned farms that prioritize humane raising and natural feeding. Every cut is hand-selected and seasoned simply — because great meat doesn't need to hide behind heavy sauces.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="value-card">
+          <div style="font-size:2.5rem; margin-bottom:1rem;">🤝</div>
+          <h4 style="color:var(--gold);">Genuine Hospitality</h4>
+          <p style="color:#ccc;">We're not a chain. We're a family restaurant run by people who genuinely love feeding guests. Our servers know your name by the end of the night, and our gauchos take pride in every slice they serve.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="value-card">
+          <div style="font-size:2.5rem; margin-bottom:1rem;">🌿</div>
+          <h4 style="color:var(--gold);">Fresh Every Day</h4>
+          <p style="color:#ccc;">Our salad bar is restocked throughout service. Our sauces are made in-house daily. Nothing sits around. If it's on your plate, it was prepared today — that's non-negotiable at J.A.M.'s.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-5">
+    <div class="text-center">
+      <h2 class="section-title">Meet the Team</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="row g-4 justify-content-center mt-2">
+      <div class="col-md-3">
+        <div class="team-card">
+          <div class="team-avatar">👨‍🍳</div>
+          <h5 style="color:var(--gold);">Jack Mullins</h5>
+          <p style="color:#aaa; font-size:0.85rem; text-transform:uppercase; letter-spacing:1px;">Founder & Pitmaster</p>
+          <p style="color:#ccc; font-size:0.9rem;">The man behind the fire. Jack oversees every menu decision and still carves tableside on Friday nights.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="team-card">
+          <div class="team-avatar">👩‍🍳</div>
+          <h5 style="color:var(--gold);">Maria Santos</h5>
+          <p style="color:#aaa; font-size:0.85rem; text-transform:uppercase; letter-spacing:1px;">Head Chef</p>
+          <p style="color:#ccc; font-size:0.9rem;">Born in São Paulo, Maria brings authentic Brazilian technique and flavor to every dish on the menu.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="team-card">
+          <div class="team-avatar">🧑‍🤝‍🧑</div>
+          <h5 style="color:var(--gold);">Carlos & Dani</h5>
+          <p style="color:#aaa; font-size:0.85rem; text-transform:uppercase; letter-spacing:1px;">Lead Gauchos</p>
+          <p style="color:#ccc; font-size:0.9rem;">Our tableside carving duo. Between them they have 20+ years of churrasco experience and zero bad cuts.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center py-4 mt-3">
+    <p class="mb-1" style="color:var(--gold); font-family:'Playfair Display',serif; font-size:1.2rem;">J.A.M.'s Brazilian Steakhouse</p>
+    <p class="mb-1">123 High Street · Oxford, OH · (513) 555-0192</p>
+    <p class="mb-0"><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="bootstrap.html">Reservations</a></p>
+    <p class="mt-2 mb-0" style="font-size:0.8rem;">&copy; 2024 J.A.M.'s Brazilian Steakhouse. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
